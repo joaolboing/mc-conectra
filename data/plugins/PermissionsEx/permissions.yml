@@ -1,0 +1,16 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - modifyworld.*
+    - cristreecapitator.user
+    - makeitday.day
+  Admin:
+    inheritance:
+    - default
+    options:
+      prefix: '&0(&4Admin&0)&7 '
+    permissions:
+    - permissions.*
+schema-version: 1
